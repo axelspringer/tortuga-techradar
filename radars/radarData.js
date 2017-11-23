@@ -107,8 +107,7 @@ var radar_data = [
 
   { name: 'Jenkins',    pc: { r: 280, t: 56 },    movement: 't' }, 
 
-   { name: 'Json Web Tokens (JWT)',    pc: { r: 180, t: 65 },    movement: 'c' },
-
+{ name: 'Json Web Tokens (JWT)',    pc: { r: 180, t: 65 },    movement: 'c' },
 
   { name: 'ELK',    pc: { r: 30, t: 72 },    movement: 'c',    domain: 'back-end' },
   { name: 'haproxy',    pc: { r: 80, t: 46 },    movement: 'c' },

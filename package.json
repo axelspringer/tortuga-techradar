@@ -1,0 +1,32 @@
+{
+  "name": "tortuga-techradar",
+  "version": "1.0.0",
+  "description": "Highly opinionated Tech Radar of the Tortuga Platform",
+  "main": "radar.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build:docker": "docker -t axelspringer/tortuga-techradar .",
+    "server": "http-server . -c-1 --cors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelspringer/tortuga-techradar.git"
+  },
+  "contributors": [
+    {
+      "name": "Sebastian Döll",
+      "email": "sebastian.doell@axelspringer.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/axelspringer/tortuga-techradar/issues"
+  },
+  "homepage": "https://github.com/axelspringer/tortuga-techradar#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
