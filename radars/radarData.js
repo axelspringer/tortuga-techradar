@@ -149,7 +149,7 @@ var radar_data = [
 
             // trial
             {"name":"Vue.js", "pc":{"r":130,"t":355},"movement":"c"},   
-            {"name":"Serverside Javascript ^", "pc":{"r":190,"t":280},"movement":"c"},
+            {"name":"Serverside Javascript ^", "pc":{"r":80,"t":280},"movement":"c"},
             {"name":"TypeScript ^", "pc":{"r":190,"t":290},"movement":"c"},
             {"name":"Angular", "pc":{"r":195,"t":310},"movement":"c"},
 
