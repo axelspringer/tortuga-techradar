@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "Tortuga Tech-Radar (November 2017)";
+document.title = "Tortuga Tech-Radar (March 2019)";
 
 
 //This is the concentic circles that want on your radar
@@ -96,16 +96,15 @@ var radar_data = [
 
 { name: 'Chronos',    pc: { r: 80, t: 20 },    movement: 'c' },
 { name: 'Zookeper',    pc: { r: 96, t: 50 },    movement: 'c' },
+  { name: 'Grafana',    pc: { r: 80, t: 80 },    movement: 'c' }, 
+  { name: 'Traefik',    pc: { r: 85, t: 40 },    movement: 'c' }, 
+  { name: 'Prometheus',    pc: { r: 80, t: 87 },    movement: 'c' }, 
 
   { name: 'etcd',    pc: { r: 170, t: 29 },    movement: 't' }, 
   { name: 'CoreOS',    pc: { r: 150, t: 50 },    movement: 't' }, 
-  { name: 'Traefik',    pc: { r: 140, t: 60 },    movement: 't' }, 
-  { name: 'Docker Swarm',    pc: { r: 140, t: 75 },    movement: 't' }, 
-  { name: 'Prometheus',    pc: { r: 180, t: 87 },    movement: 't' }, 
-  { name: 'InfluxDB',    pc: { r: 180, t: 56 },    movement: 't' }, 
-  { name: 'Grafana',    pc: { r: 180, t: 80 },    movement: 'c' }, 
+  { name: 'Kubernetes',    pc: { r: 140, t: 75 },    movement: 't' }, 
 
-  { name: 'Jenkins',    pc: { r: 280, t: 56 },    movement: 't' }, 
+  { name: 'Jenkins',    pc: { r: 80, t: 56 },    movement: 't' }, 
 
 { name: 'Json Web Tokens (JWT)',    pc: { r: 180, t: 65 },    movement: 'c' },
 
@@ -117,7 +116,7 @@ var radar_data = [
   { name: 'Ubuntu',    pc: { r: 310, t: 7 },    movement: 'c' }, 
   { name: 'MySQL',    pc: { r: 300, t: 20 },    movement: 'c' }, 
 
-  { name: 'memcached',    pc: { r: 340, t: 10 },    movement: 'c' },
+  { name: 'memcached',    pc: { r: 40, t: 10 },    movement: 'c' },
   { name: 'Stash',    pc: { r: 340, t: 65 },    movement: 'c' }
   ]
     },
@@ -126,15 +125,15 @@ var radar_data = [
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [ 
-            {"name":"PagerDuty", "pc":{"r":110,"t":240},"movement":"c"}, 
-            {"name":"Pingdom", "pc":{"r":110,"t":200},"movement":"c"}, 
+            {"name":"PagerDuty", "pc":{"r":50,"t":240},"movement":"c"}, 
+            {"name":"Pingdom", "pc":{"r":50,"t":200},"movement":"c"}, 
             {"name":"AWS - EC2", "pc":{"r":90,"t":250},"movement":"c"},
             {"name":"S3-compatible Storage", "pc":{"r":90,"t":230},"movement":"c"},
-            {"name":"AWS - RDS & DynamoDB", "pc":{"r":110,"t":230},"movement":"c"},
-            {"name":"Github", "pc":{"r":100,"t":210},"movement":"c"},    
+            {"name":"AWS - RDS & DynamoDB", "pc":{"r":70,"t":230},"movement":"c"},
+            {"name":"Github", "pc":{"r":700,"t":230},"movement":"c"},    
             
-            {"name":"Akamai", "pc":{"r":110,"t":180},"movement":"c"},  
-            {"name":"AWS - Cloudfront", "pc":{"r":120,"t":210},"movement":"c"}, 
+            {"name":"Akamai", "pc":{"r":90,"t":180},"movement":"c"},  
+            {"name":"AWS - Cloudfront", "pc":{"r":20,"t":210},"movement":"c"}, 
         ]
     },
     { "quadrant": "Languages & Frameworks",
